@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 300px;
+    height: 410px;
+    background-color: #ccc;
+}
+
+.input1{
+    width: 300px;
+    padding: 10px;
+    text-align: right;
+    height: 60px;
+    font-size: 24px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.teng{
+    width: 135px;
+    height: 60px;
+}

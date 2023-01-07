@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <input type="text" id="inp" class="input1" placeholder="0">
+        </div>
+        <div class="row">
+            <button onclick="reset()" class="amal">c</button>
+            <button onclick="numButton(this)" value="(" class="amal">(</button>
+            <button onclick="numButton(this)" value=")" class="amal">)</button>
+            <button onclick="numButton(this)" value="%" class="amal">%</button>
+        </div>
+        <div class="row">
+            <button onclick="numButton(this)" value="1" class="amal">1</button>
+            <button onclick="numButton(this)" value="2" class="amal">2</button>
+            <button onclick="numButton(this)" value="3" class="amal">3</button>
+            <button onclick="numButton(this)" value="/" class="amal">/</button>
+        </div>
+        <div class="row">
+            <button onclick="numButton(this)" value="4" class="amal">4</button>
+            <button onclick="numButton(this)" value="5" class="amal">5</button>
+            <button onclick="numButton(this)" value="6" class="amal">6</button>
+            <button onclick="numButton(this)" value="+" class="amal">+</button>
+        </div>
+        <div class="row">
+            <button onclick="numButton(this)" value="7" class="amal">7</button>
+            <button onclick="numButton(this)" value="8" class="amal">8</button>
+            <button onclick="numButton(this)" value="9" class="amal">9</button>
+            <button onclick="numButton(this)" value="-" class="amal">-</button>
+        </div>
+        <div class="row">
+            <button onclick="numButton(this)" value="0" class="amal">0</button>
+            <button onclick="barobar()" class="teng">=</button>
+            <button onclick="numButton(this)" value="*" class="amal">*</button>
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
